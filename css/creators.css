@@ -1,0 +1,39 @@
+.creator-grid {
+  margin: 20px auto;
+  width: 1200px;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-row: auto auto;
+  grid-column-gap: 200px;
+  grid-row-gap: 100px;
+}
+
+.creator:hover {
+  border: 2px solid;
+  border-color: black;
+}
+
+.creator-grid img {
+  display: flex;
+  align-self: center;
+  width: 300px;
+  border-radius: 1rem;
+  max-height: 300px;
+}
+
+.creator {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: auto;
+  background-color: rgb(227, 217, 205);
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.creator p {
+  display: flex;
+  align-self: center;
+  padding: 1rem;
+}
